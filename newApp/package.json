@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
-  "homepage": "https://tamik-w.github.io/Lesson-48-Study-spacee-/",
+  "homepage": "https://tamik-w.github.io/Lesson48/",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "build": "cross-env NODE_ENV=production webpack --mode production",
@@ -11,7 +11,6 @@
     "start": "webpack serve --open --mode development",
     "lint": "eslint -c .eslintrc.json --ext .js,.jsx .",
     "lint:fix": "npm run lint -- --fix",
-
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
