@@ -45,7 +45,7 @@ function App () {
               key={product.id} 
               id={product.id} 
               name={product.name} 
-              price={`${product.price} $`} />)}
+              price={product.price} />)}
         </div>
       </main>
     </div> 
